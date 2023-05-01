@@ -1,0 +1,9 @@
+const Booksdata = [
+    {title:"Designing Data-Intensive Applications",imgLink:"https://learning.oreilly.com/library/cover/9781491903063//200h/",author:"Martin Kleppmann",desc:"Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as..."},
+    {title:"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",imgLink:"https://learning.oreilly.com/library/cover/9781098125967//200h/",author:"Aurlien Gron",desc:"Through a recent series of breakthroughs, deep learning has boosted the entire field of machine learning."},
+    {title:"Fluent Python, 2nd Edition",imgLink:"https://learning.oreilly.com/library/cover/9781098125967//200h/",author:"Fluent Python, 2nd Edition",desc:"Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity.."},
+    {title:"Python Crash Course, 3rd Edition",imgLink:"https://learning.oreilly.com/library/cover/9781098156664//200h/",author:"Eric Matthes",desc:"Python Crash Course is the world's best-selling guide to the Python guide programming language, with over...."},
+    {title:"Fundamentals of Data Engineering",imgLink:"https://learning.oreilly.com/library/cover/9781098108298//200h/",author:"Joe Reis, Matt Housley",desc:"Data engineering has grown rapidly in the past decade, leaving many software engineers, data scientists,..."},
+    {title:"Fundamentals of Software Architecture",imgLink:"https://learning.oreilly.com/library/cover/9781492043447//200h/",author:"Mark Richards, Neal Ford",desc:"Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no..."}
+]
+export default Booksdata

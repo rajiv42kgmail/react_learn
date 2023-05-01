@@ -1,0 +1,41 @@
+Designing Data-Intensive Applications
+by Martin Kleppmann
+Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as..
+https://learning.oreilly.com/library/cover/9781491903063//200h/
+
+
+
+Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition
+by Aur&#xe9;lien G&#xe9;ron
+Through a recent series of breakthroughs, deep learning has boosted the entire field of machine learning.
+https://learning.oreilly.com/library/cover/9781098125967//200h/
+
+
+
+Fluent Python, 2nd Edition
+by Luciano Ramalho
+Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity..
+https://learning.oreilly.com/library/cover/9781098125967//200h/
+
+
+Python Crash Course, 3rd Edition
+by Eric Matthes
+Python Crash Course is the world's best-selling guide to the Python guide programming language, with over....
+https://learning.oreilly.com/library/cover/9781098156664//200h/
+
+
+
+Fundamentals of Data Engineering
+by Joe Reis, Matt Housley
+Data engineering has grown rapidly in the past decade, leaving many software engineers, data scientists,...
+https://learning.oreilly.com/library/cover/9781098108298//200h/
+
+
+Fundamentals of Software Architecture
+by Mark Richards, Neal Ford
+Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive overview of software architecture’s many aspects. Aspiring and existing architects alike will examine architectural characteristics, architectural patterns, component determination, diagramming and presenting architecture, evolutionary architecture, and many other topics.
+
+
+
+
+
