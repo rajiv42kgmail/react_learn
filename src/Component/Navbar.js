@@ -27,6 +27,16 @@ const Navbar = () => {
         <li className="nav-item">
         <NavLink to={"/services"} className="nav-link">Services</NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink to={"/counter"} className="nav-link">Counter</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/formobj"} className="nav-link">Form-Object</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/formref"} className="nav-link">Form-Ref</NavLink>
+        </li>
+        
       </ul>
     </div>
   </div>

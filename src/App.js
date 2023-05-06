@@ -7,6 +7,10 @@ import Home from './Component/Home';
 import Services from './Component/Services';
 import Rendering from './Component/Rendering';
 import Books from './Component/Books';
+import Counter from './Component/Counter';
+import FormObject from './Component/FormObject';
+import FormRef from './Component/FormRef';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -19,6 +23,9 @@ function App() {
               <Route path="/aboutus" element={<AboutUs/>}/>
               <Route path="/books" element={<Books/>}/>
               <Route path="/services" element={<Services/>}/>
+              <Route path="/counter" element={<Counter/>}/>
+              <Route path="/formobj" element={<FormObject/>}/>
+              <Route path="/formref" element={<FormRef/>}/>
 
           </Routes>
        </Router> 
