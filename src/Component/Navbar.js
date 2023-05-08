@@ -36,6 +36,9 @@ const Navbar = () => {
         <li className="nav-item">
         <NavLink to={"/formref"} className="nav-link">Form-Ref</NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink to={"/parentcomp"} className="nav-link">Parent Component</NavLink>
+        </li>
         
       </ul>
     </div>

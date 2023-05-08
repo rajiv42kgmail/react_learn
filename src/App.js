@@ -10,6 +10,7 @@ import Books from './Component/Books';
 import Counter from './Component/Counter';
 import FormObject from './Component/FormObject';
 import FormRef from './Component/FormRef';
+import ParentComp from './Component/ParentComp';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -26,6 +27,7 @@ function App() {
               <Route path="/counter" element={<Counter/>}/>
               <Route path="/formobj" element={<FormObject/>}/>
               <Route path="/formref" element={<FormRef/>}/>
+              <Route path="/parentcomp" element={<ParentComp/>}/>
 
           </Routes>
        </Router> 
