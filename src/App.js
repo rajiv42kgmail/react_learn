@@ -11,6 +11,10 @@ import Counter from './Component/Counter';
 import FormObject from './Component/FormObject';
 import FormRef from './Component/FormRef';
 import ParentComp from './Component/ParentComp';
+import Effect from './Component/Effect';
+import EffectOne from './Component/EffectOne';
+import APIUseEffect from './Component/APIUseEffect';
+import Shopping from './Component/Shopping';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -28,6 +32,10 @@ function App() {
               <Route path="/formobj" element={<FormObject/>}/>
               <Route path="/formref" element={<FormRef/>}/>
               <Route path="/parentcomp" element={<ParentComp/>}/>
+              <Route path="/useeffect" element={<Effect/>}/>
+              <Route path="/effectone" element={<EffectOne/>}/>
+              <Route path="/apiuseeffect" element={<APIUseEffect/>}/>
+              <Route path="/shopping" element={<Shopping/>}/>
 
           </Routes>
        </Router> 

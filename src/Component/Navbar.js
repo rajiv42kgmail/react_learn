@@ -39,6 +39,18 @@ const Navbar = () => {
         <li className="nav-item">
         <NavLink to={"/parentcomp"} className="nav-link">Parent Component</NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink to={"/useeffect"} className="nav-link">Use effect</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/effectone"} className="nav-link"> effect one</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/apiuseeffect"} className="nav-link">Api use effect</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/shopping"} className="nav-link">Shopping Items</NavLink>
+        </li>
         
       </ul>
     </div>
