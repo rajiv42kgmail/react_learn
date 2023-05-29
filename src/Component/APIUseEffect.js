@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 
 const APIUseEffect = () => {
 
-    useEffect(()  => {
+    useEffect(async ()  => {
         const url = 'https://fear-and-greed-index.p.rapidapi.com/v1/fgi';
 const options = {
 	method: 'GET',
@@ -14,8 +14,8 @@ const options = {
 };
 
 try {
-	const response =  fetch(url, options);
-	const result =  response.text();
+	const response = await  fetch(url, options);
+	const result = await response.text();
 	console.log(result);
 } catch (error) {
 	console.error(error);

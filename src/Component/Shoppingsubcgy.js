@@ -26,6 +26,6 @@ const Shoppingsubcgy = (props) => {
     })   
     )
 
-
+    
 }
 export default Shoppingsubcgy

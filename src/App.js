@@ -15,6 +15,11 @@ import Effect from './Component/Effect';
 import EffectOne from './Component/EffectOne';
 import APIUseEffect from './Component/APIUseEffect';
 import Shopping from './Component/Shopping';
+import UseRefComp from './Component/UseRefComp'
+import UseRefComp2 from './Component/UseRefComp2'
+import ProductsApp from './Component/Productapp/ProductsApp';
+import ProductsData from './ProductsData.js';
+import Mytasks from './Component/Mytasks';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -36,7 +41,10 @@ function App() {
               <Route path="/effectone" element={<EffectOne/>}/>
               <Route path="/apiuseeffect" element={<APIUseEffect/>}/>
               <Route path="/shopping" element={<Shopping/>}/>
-
+              <Route path="/userefcomp" element={<UseRefComp/>}/>
+              <Route path="/userefcomp2" element={<UseRefComp2/>}/>
+              <Route path="/productsapp" element={<ProductsApp products={ProductsData}/>}/>
+              <Route path="/mytasks" element={<Mytasks/>}/>
           </Routes>
        </Router> 
     </>

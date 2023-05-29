@@ -51,6 +51,18 @@ const Navbar = () => {
         <li className="nav-item">
         <NavLink to={"/shopping"} className="nav-link">Shopping Items</NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink to={"/userefcomp"} className="nav-link">Use Ref</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/userefcomp2"} className="nav-link">Use Ref 2</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/productsapp"} className="nav-link">ProductsApp</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink to={"/mytasks"} className="nav-link">My tasks</NavLink>
+        </li>
         
       </ul>
     </div>
