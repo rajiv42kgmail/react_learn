@@ -10,7 +10,6 @@ const Mytasks = () => {
     const[prevVal,setPrevValue] = useState("");
     const[counterVal,setCounterVal] = useState(0);
     const[taskdata,setTaskData] = useState([]);
-    const[getRowIdData,setgetRowIdData] = useState();
     
     const handleChange = event => {
         setTextValue(event.target.value);
@@ -37,13 +36,6 @@ const Mytasks = () => {
 
     }   
     
-    if(getRowIdData) {
-     //  alert(getRowIdData)
-      // setTaskData((taskdata) => taskdata.filter((_, value) => value !== getRowIdData));
-      //setTaskData([])
-      //return;
-       // setTaskData(taskdata.filter(getData => getData.rowId !== getRowIdData));
-     } 
   return (
     <>
     <h3>Mytasks</h3>

@@ -1,13 +1,9 @@
 import React from 'react'
-import { useState } from 'react';
 const Taskshow = (props) => {
-//  const[taskdata,setTaskData] = useState(props);
 
   console.log({props})
     const deleteTask = (e) => {
       props.setTaskData(props.taskdata.filter(item => item !== e.target.value));
-
-         // props.setTaskData([]);
 
     }
 
